@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Grey+Qo&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sofadi+One&display=swap');
+
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: "Poppins", sans-serif;
+}
+
+.akki{
+  /* background:white; */
+  backdrop-filter: blur(2px); /* Applies a 20px blur to the content behind the element */
+  background-color: rgba(146, 146, 146, 0); 
+  width: 100%;
+  /* backdrop-filter: blur(20px); */
+  display: flex;
+  justify-content: space-between;
+  color: antiquewhite;
+  height: 60px;
+  text-align: center;
+  align-items: center;
+  position: fixed;
+  /* filter: blur(4px);  */
+}
+img{
+  width: 60px;
+}
+.links_aa{
+padding-right: 20px;
+color: #687F2A;
+text-decoration: none;
+}
+.img_1231{
+  width: 170px;
+  padding-top: 20px;
+}
+.rolar_m{
+  color: #788D41;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 60px;
+}
+.rolar_1{
+  font-size: 70px;
+  font-weight: 900;
+  line-height: 80px;
+  letter-spacing: -1px;
+}
+  
+.rolar_2 {
+  position: relative;
+  opacity: 0;
+  transform: translateY(50px); /* Start from slightly below */
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.rolar_2.visible {
+  opacity: 1;
+  transform: translateY(0); /* Move to original position */
+}
+
+.rolar_2 img{
+  width: 500px;
+  padding: 40px 90px 0px 0px;
+  border-radius: 20px;
+}
+.role_100{
+  width: 100%;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  gap: 4vh;
+  white-space: nowrap;
+  overflow: hidden;
+  background-color: #ceea68a6;
+}
+.role_100 img{
+  width: 180px;
+}
+.role_100 h1{
+  font-size: 8vw;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding-left: 30px;
+  line-height: 1px;
+  font-family: "Sofadi One", system-ui !important;
+  font-weight: 400;
+  font-style: normal;
+  
+}
+.burger_qq{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  
+  
+}
+.burger_qq img{
+  width: 400px;
+}
+.about_qqq{
+  height: 100vh;
+  background-color: #CDEA68;
+  border-top-left-radius: 1.5rem; 
+  border-top-right-radius: 1.5rem;
+  position: relative;
+  
+
+}
+.about_qqq p{
+  font-size: 60px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: "Poppins", system-ui;
+  line-height: 111px;
+  /* padding-top: 200px; */
+  border-radius: 200px;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  text-align:center ;
+}
+.clynder-2322{
+  width: 100%j;
+  height: 500px;
+  background: rgb(255, 255, 255);
+}
+.flav1{
+  width: 80%;
+  height: 450px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../public/onlyvegan1.png);
+  margin-left: 30px;
+  position: relative;
+}
+.flav2{
+  position: absolute;
+  top: 44%;
+  left: 50%;
+  transform: translate(-50% , -50%) ;
+  display: flex;
+}
+
+.flav3_ch1{
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  font-size: 5px !important;
+  margin-left: 10px;
+  background-color: rgb(255, 255, 255);
+}
+
+.flav3 {
+  border-radius: 50%;
+  width: 10vw;
+  height: 10vw;
+  background-color: #687f2a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative; /* Added to position the flav_line */
+}
+
+.flav_line {
+  width: 100%;
+  height: 25px;
+  position: absolute; /* Position absolutely within the .flav3 */
+  top: 50%; /* Center it vertically */
+  left: 50%; /* Center it horizontally */
+  transform: translate(-50%, -50%); /* Adjust to center */
+}
+
+.flav4{
+  background: rgb(0, 0, 0);
+  width: 7vw;
+  height: 7vw;
+  border-radius: 50%;
+  position: absolute; /* Position absolutely within the .flav3 */
+  top: 50%; /* Center it vertically */
+  left: 50%; /* Center it horizontally */
+  transform: translate(-50%, -50%); 
+
+}
+.hidden {
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.visible {
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+.level909{
+
+}
+.fld_mid{
+  width: 100%;
+  height: 500px;
+  /* background-color:#687F2A; */
+  border-top-left-radius: 1.5rem; 
+  border-top-right-radius: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  background-image: url("");
+}
+.fld_mid_11{
+  background-color: #CDEA68;
+  width: 60%;
+  height: 300px;
+  position: absolute;
+  top: 50%;
+  left:35%;
+  transform: translate(-50%, -50%);
+  background-image: url("https://img.freepik.com/premium-photo/elegant-expensive-dish-dark-black-gourmet-plate_1022901-20059.jpg?w=1060");
+  background-size: cover;
+  border-radius: 10px;
+  
+}
+.llpp p{
+  position: absolute;
+  top: 50%;
+  left:0%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  align-items: center;
+  color: #ffffffc4;
+  width: 100%;
+  font-size: 30px;
+  font-weight: 600;
+}
+.fld_mid_12{
+  background-color: #CDEA68;
+  width: 20%;
+  height: 300px;
+  position: absolute;
+  top: 50%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  
+}
+.llpp{
+  width: 100%;
+  height: 500px;
+ position: relative;
+}
+.next_qqq{
+  height: 100vh;
+  background-color: #000000;
+  border-top-left-radius: 1.5rem; 
+  border-top-right-radius: 1.5rem;
+  position: relative;
+  display: flex; 
+  align-items: center;
+}
+.next_qqq p{
+  color:#CDEA68;
+  font-size: 70px;
+  font-weight: 900;
+  font-family: "Sofadi One", system-ui !important;
+ 
+}
+.nest_1{
+  width: 50%;
+  background: rgb(0, 0, 0);
+  height: 200px;
+}
+.nest_2{
+  display: flex;
+  justify-content: center`;
+}
